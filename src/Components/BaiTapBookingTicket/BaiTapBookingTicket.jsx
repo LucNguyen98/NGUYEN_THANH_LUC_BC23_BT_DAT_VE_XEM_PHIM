@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './BaiTapBookingTicket.css';
 import danhSachGhe from '../../danhSachGhe.json'
 import HangGhe from './HangGhe';
+import GioHangBookingTicket from './GioHangBookingTicket';
 
 export default class BaiTapBookingTicket extends Component {
 
@@ -34,7 +35,7 @@ export default class BaiTapBookingTicket extends Component {
                 {this.renderTicketList()}
               </div>
               <div className="col-4">
-
+                  <GioHangBookingTicket/>
               </div>
             </div>
           </div>
